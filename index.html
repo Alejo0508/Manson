@@ -6,62 +6,122 @@
     <link rel="stylesheet" href="estilosindex.css">
     <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <title>&#9868; Marilyn Manson</title>
 </head>
 
-<body>
+<body class="body">
+
     <header>
-
-        <h1 class="h1">MARILYN MANSON</h1>
-        <nav>
-            <ul>
-            <h4 class="titulos">Tal vez te pueda interesar</h4>
-            <li class="texto"><p class="texto">&#9729; Visita su <a href="https://marilynmanson.com/"><span class="texto">pagina oficial.</a></span></p></li>
-            <li class="texto"><p class="texto">&#9730; ¿Quieres visitar su canal de youtube?<a href="https://www.youtube.com/channel/UCbirjI1K3MGu0-Y1gTBNR5w"><span class="texto">,  solo da clic.</a></span></p></li>
-            <li class="texto"><a href="registro.html" class="texto">Registrate.</a></li>
-            
-            </ul>
-            <hr>
-            <section class="banner">
-                <!--banner-->
-            </section>
-        </nav>
-        
+        <nav class="navbar navbar-expand-lg navbar-dark colormenu">
+            <a class="navbar-brand" href="index.html">Manson</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://marilynmanson.com/">Pagina oficial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.youtube.com/channel/UCbirjI1K3MGu0-Y1gTBNR5w">Youtube</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registro.html">Registrate</a>
+                  </li>
+                </ul>
+            </div>
+          </nav>
     </header>
+
     <main>
-        <hr>
-        <h3 class="titulos">ACA ENCONTRARAS</h3>
-        <p class="texto">
-          En esta web mostrarás una pequeña biografia al igual que algunas de las canciones mas importantes del artista marilyn manson.
-        </p>
-        <hr>
         <br>
-        <h2 class="titulos">BIOGRAFIA</h2>
-        <br>
-        <p class="textoprincipal">Brian Hugh Warner, más conocido como Marilyn Manson, nació el 5 de Enero de 1969 en Ohio, Estados Unidos.</p>
-        <p class="textoprincipal">Estudió en un colegio cristiano, pero pronto abandonó la religión, pues pensaba que tenía una postura hipócrita. Por ello se transfiere al colegio de secundaria GlenOak, y tras terminar la escuela se muda con su familia a Florida. Ahí estudia periodismo, y teatro en el instituto “Broward Community College”.</p>
-        <p class="textoprincipal">En el año 1989 Marilyn Manson se junta con el guitarrista Daisy Berkowitz y forman la banda “Marilyn Manson & The Spooky Kids”. Años más tarde el grupo decide acortar el nombre a tan solo “Marilyn Manson”. Esta banda de metal industrial toma el nombre de la fusión de los personajes Marilyn Monroe y el asesino en serio Charles Manson. Según propone la banda, el nombre refleja la dualidad entre el bien y el mal, entre el glamour y la brutalidad.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <img src="img/imagen3.jpg" class="d-block w-100" alt="">
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>    
 
-            <hr>
-            <br>
-            <h3 class="titulos">Conoce su<a href="pagina1.html" class="texto">Discografia.</a></h3>
-            <br>
-            <br>
-           <h3 class="titulos">¿quieres conocer algunos mitos y verdades del cantante?<a href="pagina2.html" class="texto">, clic aqui.</a></h3>       
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h3 class="acaencontraras text-center">ACA ENCONTRARAS</h3>
+                    <p class="textoacaencontraras">
+                      En esta web mostrarás una pequeña biografia al igual que algunas de las canciones mas importantes del artista marilyn manson.
+                    </p>
+                    <h2 class="biografia">BIOGRAFIA</h2>
+                    <p class="textobiografia">Brian Hugh Warner, más conocido como Marilyn Manson, nació el 5 de Enero de 1969 en Ohio, Estados Unidos.</p>
+                    <p class="textobiografia">Estudió en un colegio cristiano, pero pronto abandonó la religión, pues pensaba que tenía una postura hipócrita. Por ello se transfiere al colegio de secundaria GlenOak, y tras terminar la escuela se muda con su familia a Florida. Ahí estudia periodismo, y teatro en el instituto “Broward Community College”.</p>
+
+                    <p class="thebeautifulpeople text-center">Tal vez quieras escuchar - The Beautiful People</p>
+                    <audio src="audio\the Beautiful People.mp3" controls class="w-100"></audio>
+                </div>
+                
+                <div class="col-12 col-md-6">
+                    <p class="textobiografia2">En el año 1989 Marilyn Manson se junta con el guitarrista Daisy Berkowitz y forman la banda “Marilyn Manson & The Spooky Kids”. Años más tarde el grupo decide acortar el nombre a tan solo “Marilyn Manson”. Esta banda de metal industrial toma el nombre de la fusión de los personajes Marilyn Monroe y el asesino en serio Charles Manson. Según propone la banda, el nombre refleja la dualidad entre el bien y el mal, entre el glamour y la brutalidad.</p>
+                    <video src="video\Tourniquet.mp4" controls class="img-fluid"></video>
+              </div>
+            </div>
+        </div>   
+
+        <div class="container">
+            <div class="row justify-content-around ">
+                    <div  class="col-12 col-md-4 text-center discografia" class="card" style="width: 18rem;">
+                        <a href="pagina1.html">
+                        <img src="img/albunes.jpg"class="card-img-top" alt="..." >
+                        <div class="card-body">
+                          <p class="card-text text-center">Aca podras encontrar sus principales albums de estudio</p></a>
+                    </div>
+            </div>
+                    <div class="col-12 col-md-4 text-center discografia" class="card" style="width: 18rem;">
+                            <a href="pagina2.html">
+                            <img src="img/mitos.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">¿quieres conocer algunos mitos y verdades del cantante?</p></a>
+                    </div>
+        </div> 
+
+    
     </main>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <footer>
-        <hr>
-        <br>
-        <p class="textobanner">Alejandro Montoya Gaviria | Derechos Reservados &copy</p>
-        <br>
-    </footer>
 
+    <footer>
+        <div class="container footer">
+          <div class="row footer">
+            <div class="col-12 col-md-6 footer">
+              <p class="textofooter">Alejandro Montoya Gaviria</p>
+              <p class="textofooter">Estudiante en tecnologia en desarrollo de software y tecnica en programacion full stack</p>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <a href="https://www.instagram.com/alejandromg0805/">
+              <i class="fab fa-instagram fa-5x iconofooter"></i>
+              </a>
+              <a href="https://github.com/Alejo0508">
+              <i class="fab fa-github fa-5x iconogithub"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e4f0235d6c.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,92 +1,184 @@
-body{
-        background-color:  #212121;
+    .body{
+        background-color: #e0e0e0;
         margin: 5px 5px;
     
     }
-    .titulos{
-        color: #b39ddb;
+
+    .colormenu{
+        background-color: #424242;
+    }
+
+    .biografia{
+        color: rgb(0, 0, 0);
         font-size: 18px;
         margin: 5px 5px;
         font-family: 'Montserrat', sans-serif;
-
-    }
-
-    .titulosbegrita{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 15px;
         font-weight: bold;
-        color: #bdbdbd;
-        font-size: 20px;
-        margin: 5px 5px;
-        font-family: 'Montserrat', sans-serif;
 
     }
 
-    .textocursiva{
-        padding: 10px;
-        font-style: italic;
-        color: #eeeeee;
+    .videorecomensado{
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 15px;
+        font-weight: bold;
+
+    }
+
+    .acaencontraras{
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        margin: 5px 5px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-weight: bold;
+
+    }
+
+    .textoacaencontraras {
+        font-size: 16px;
+        padding: 2px;
+        padding-right: 5px;
+        color: #000000;
         text-align: justify;
-        margin: 5px 5px;
         font-family: 'Montserrat', sans-serif;
 
     }
-    
+
+    .textobiografia{
+        font-size: 16px;
+        padding: 2px;
+        padding-right: 5px;
+        color: #000000;
+        text-align: justify;
+        font-family: 'Montserrat', sans-serif;
+    }
+
     .texto{
         font-size: 16px;
         padding: 2px;
         padding-right: 5px;
-        color: #eeeeee;
+        color: #000000;
         text-align: justify;
-        margin: 5px 5px;
         font-family: 'Montserrat', sans-serif;
-
     }
 
-    .textoprincipal{
-        font-size: 16px;
-        padding: 10px;
-        color: #eeeeee;
-        text-align: justify;
-        margin: 5px 5px;
-        font-family: 'Montserrat', sans-serif;
+    .textobiografia2{
+    font-size: 16px;
+    padding: 2px;
+    padding-right: 5px;
+    color: #000000;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
 
+    .thebeautifulpeople{
+            font-size: 16px;
+            padding: 2px;
+            padding-right: 5px;
+            color: #000000;
+            text-align: justify;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 20px;
+            margin-bottom: 5px;
+            font-weight: bold;
+    }
+
+    .discografia{
+        margin-top: 50px;
+        display: inline-block;
+    }
+
+    .textofooter{
+        color: #e0e0e0;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 20px;
+    }
+
+    .iconofooter{
+        margin-top: 20px;
+        color: #e0e0e0;
+    }
+
+    .iconogithub{
+        margin-top: 20px;
+        color: #e0e0e0;
+        margin-left: 50px;
     }
 
     .span{
-        font-style: italic;
-        color: #b39ddb;
-        text-align: justify;
-        margin: 5px 5px;
+        color: #000000;
         font-family: 'Montserrat', sans-serif;
-      
-    }
-
-    .textobanner{
-        color: rgb(255, 255, 255);
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-
-    }
-
-    h1{
-        color: #bdbdbd;
-        text-align: center ;
-        font-family: 'Metal Mania', cursive;
-        font-size: 50px;
-        margin: 5px 5px;
-    }
-
-    .titulovideo{
         font-weight: bold;
-        color: #bdbdbd;
-        text-align: center ;
-        font-family: 'Metal Mania', cursive;
-        font-size: 50px;
-        margin: 5px 5px;
     }
-    
+
+    .mitosyverdades{
+        color: rgb(0, 0, 0);
+        font-size: 22px;
+        margin: 5px 5px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    .mitosyverdadestextofinal{
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        margin: 5px 5px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    .listacanciones{
+        color: rgb(0, 0, 0);
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+
+
+
+    .textomitosyverdades{
+        font-size: 16px;
+        padding: 2px;
+        padding-right: 5px;
+        color: #000000;
+        text-align: justify;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .textomitosyverdades2{
+    font-size: 16px;
+    padding: 2px;
+    padding-right: 5px;
+    color: #000000;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
     footer{
-        color: rgb(102, 102, 102);
-        background-color: rgb(104, 104, 104);
+        background-color: #424242;
         text-align: center;
         width: 100%;
     }
@@ -103,11 +195,34 @@ body{
         text-align: center;
     }
 
-    .textoterminos{
-        padding: 20px;
-        width: 400px;
-        color: #eeeeee;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 12px;
+    .formulario{
+        margin-top: 40px;
     }
 
+    .textoterminos1{
+        color: #000000;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+
+    .textoterminos2{
+        color: #000000;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .registrate{
+        color: #000000;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+
+    .boton{
+        width: 200px;
+    }

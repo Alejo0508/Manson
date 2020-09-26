@@ -6,51 +6,144 @@
     <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilosindex.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <title>Registro</title>
 </head>
 
-<body>
+<body class="body">
     <header>
-        <h1>Registrate</h1>
-        <section class="banner">
-            <!--banner-->
-        </section>
-        <hr>
-        <nav>
-            <p class="texto">Registrate y resibiras novedades de la banda y premios sorpresa.</p>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark colormenu">
+            <a class="navbar-brand" href="index.html">Manson</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://marilynmanson.com/">Pagina oficial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.youtube.com/channel/UCbirjI1K3MGu0-Y1gTBNR5w">Youtube</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registro.html">Registrate</a>
+                  </li>
+                </ul>
+            </div>
+          </nav>
     </header>
+
     <main>
+
         <br>
-        <form>
-            <input type="text" placeholder="Nombre" id="nombre" name="nombre">
-            <input type="password" placeholder="Contraseña" name="Contraseña" id="Contraseña">
-            <input type="email" placeholder="E-mail" name="email" id="email">
-            <input type="submit" value="Enviar">
-        </form>
-        <br>
-        <h2 class="titulos">Acuerdo de privacidad</h2>
-        <p class="texto">Sus datos personales han sido y están siendo tratados conforme con nuestra Política de Tratamiento de Datos Personales.
-            Términos de uso*
-            </p>
-            <br>
-            <form>
-                <input type="checkbox"  name="Acepto" id="Acepto"><label for="Acepto" class="texto">Acepto terminos.</label>
-                <p class="textoterminos">Ley de Protección de Datos Personales: “La autorización suministrada en el presente formulario faculta a esta pagina para que dé a sus datos aquí recopilados el tratamiento señalado en la “Política de Privacidad para el Tratamiento de Datos Personales” el cual incluye, entre otras, el envío de información promocional, así como la invitación a eventos. El titular de los datos podrá, en cualquier momento, solicitar que la información sea modificada, actualizada o retirada de las bases de datos.</p>
-            </form>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <img src="img/imagen3.jpg" class="d-block w-100" alt="">
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div> 
+    </header>
+
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="registrate">Registrate</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center formulario">
+                <div class="col-12 col-md-4">
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Nombre</label>
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                </div>
+            </div>
+        </div>
+
+
+         <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8 ">
+                    <div class="form-group">
+                         <label for="exampleInputEmail1">Correo</label>
+                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                         <small id="emailHelp" class="form-text text-muted">Nadie vera tu correo</small>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8 text-center">
+                <button type="submit" class="btn btn-outline-dark boton">Enviar</button>
+                </form>
+                </div>
+            </div>
+        </div>
+
+       
+          <div class="container">
+              <div class="row justify-content-center">
+                  <div class="col-8">
+                    <h2 class="textoterminos1 text-center">Acuerdo de privacidad</h2>
+                    <p class="textoterminos2">Sus datos personales han sido y están siendo tratados conforme con nuestra Política de Tratamiento de Datos Personales. Términos de uso</p>
+                    <form>
+                        <input type="checkbox"  name="Acepto" id="Acepto"><label for="Acepto" class="textoterminos2">  Acepto terminos.</label>
+                        <p class="textoterminos2">Ley de Protección de Datos Personales: “La autorización suministrada en el presente formulario faculta a esta pagina para que dé a sus datos aquí recopilados el tratamiento señalado en la “Política de Privacidad para el Tratamiento de Datos Personales” el cual incluye, entre otras, el envío de información promocional, así como la invitación a eventos. El titular de los datos podrá, en cualquier momento, solicitar que la información sea modificada, actualizada o retirada de las bases de datos.</p>
+                    </form>
+                  </div>
+              </div>
+          </div>
+
     </main>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <footer>
-        <hr>
-        <br>
-        <p class="textobanner">Alejandro Montoya Gaviria | alejandromg0805@gmail.com | Itagui - 2020 &copy</p>
-        <br>
+        <div class="container footer">
+          <div class="row footer">
+            <div class="col-12 col-md-6 footer">
+              <p class="textofooter">Alejandro Montoya Gaviria</p>
+              <p class="textofooter">Estudiante en tecnologia en desarrollo de software y tecnica en programacion full stack</p>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <a href="https://www.instagram.com/alejandromg0805/">
+              <i class="fab fa-instagram fa-5x iconofooter"></i>
+              </a>
+              <a href="https://github.com/Alejo0508">
+              <i class="fab fa-github fa-5x iconogithub"></i>
+              </a>
+            </div>
+          </div>
+        </div>
     </footer>
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e4f0235d6c.js" crossorigin="anonymous"></script>
     </body>
     </html>
